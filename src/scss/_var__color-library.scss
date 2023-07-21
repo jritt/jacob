@@ -1,0 +1,80 @@
+:root {
+	--white    : rgb(255,255,255);
+	--white-90 : rgba(255,255,255,.9);
+	--white-88 : rgba(255,255,255,.88);
+	--white-80 : rgba(255,255,255,.80);
+	--white-75 : rgba(255,255,255,.75);
+	--white-67 : rgba(255,255,255,.67);
+	--white-50 : rgba(255,255,255,.50);
+	--white-40 : rgba(255,255,255,.40);
+	--white-33 : rgba(255,255,255,.33);
+	--white-25 : rgba(255,255,255,.25);
+
+	--black    : rgb(0,0,0);
+	--black-90 : rgba(0,0,0,.90);
+	--black-88 : rgba(0,0,0,.88);
+	--black-80 : rgba(0,0,0,.80);
+	--black-75 : rgba(0,0,0,.75);
+	--black-50 : rgba(0,0,0,.50);
+	--black-25 : rgba(0,0,0,.25);
+	--black-10 : rgba(0,0,0,.10);
+
+	--red          : hsl(0 77% 52%);
+	--cyan-100     : hsl(171 30% 95%);
+	--cyan-150     : hsl(171 30% 88%);
+	--cyan-200     : hsl(183 37% 91%);
+	--cyan-300     : hsl(180 35% 84%);
+	--cyan-400     : hsl(180 35% 74%);
+	--sapphire-100 : hsl(221 40% 60%);
+	--sapphire-300 : hsl(221 40% 60%);
+	--sapphire-400 : hsl(217 72% 56%);
+	--sapphire-500 : hsl(222 66% 41%);
+	--sapphire-550 : hsl(222 55% 35%);
+	--sapphire-600 : hsl(237 95% 30%);
+	--sapphire-700 : hsl(237 95% 30%);
+	--sapphire-800 : hsl(240 100% 28%);
+	--sapphire-900 : hsl(234 96% 19%);
+	--sapphire-905 : hsla(234, 54%, 24%, 0.55);
+	--olive-100    : hsl(105 17% 86%);
+	--olive-200    : hsl(60 34% 85%);
+	--olive-250    : rgba(179, 224, 83,.5);
+	--olive-300    : rgb(179, 224, 83);
+	--olive-500    : hsl(75 47% 44%);
+	--olive-600    : hsl(60 100% 25%);
+	--olive-800    : hsl(60 100% 15%);
+	//NEW
+	--grass        : rgb(99, 158, 67);
+	--grass-500    : rgb(99, 158, 67);
+	// --grass-700    : rgb(99, 158, 67);
+	// --grass-300       : rgb(99, 158, 67);
+	//WIP
+	--cb-green         : rgba(179, 224, 83,.7);
+	--cb-green-dark    : rgba(16, 164, 118,.66);
+	--cb-green-darker  : rgba(16, 164, 118,1);
+	--cb-green-darkest : rgba(12, 144, 104,1);
+	--cb-green-light   : rgba(179, 224, 83,.2);
+
+	//UI
+	--lemon      : yellow;
+	--lime       : rgb(189, 241, 113);
+	--olive      : rgb(197, 183, 59); //modern-olive
+	--avocado    : rgb(183, 189, 81);
+	--toxic      : rgb(157, 255, 32); // slime
+	--pea        : rgb(111, 165, 61);
+	--grass      : rgb(99, 146, 44);
+	--mint       : rgb(171, 235, 198);
+	--seafoam    : rgb(119, 233, 158);
+	--mint-ui    : rgb(115, 244, 191);
+	--artic      : rgb(156, 234, 250);
+	--iceberg    : rgb(141, 252, 253);
+	--smurf      : rgb(93, 199, 210); //dark-ice /snow-cone
+	--grape      : rgb(91, 58, 236);//grape-ape/joker
+	--cobalt     : rgb(29, 55, 182);
+	--tomato     : rgb(225, 90, 39);
+	--tomato-soup : rgb(221, 80, 65);
+	--poppy      : rgb(233, 63, 54);//***
+	--watermelon : rgb(233, 90, 85);//
+	--ruby       : rgb(235, 72, 105);//strawberry
+	//carrot
+	//tagerine
+}

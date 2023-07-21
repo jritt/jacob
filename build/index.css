@@ -1,0 +1,230 @@
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/scss/index.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+:root {
+  --font-sans: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, Arial,"Segoe UI", Roboto, Oxygen-Sans, Ubuntu, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  --font-serif: Georgia, Times, Times New Roman, serif;
+  --site-gutter: 1rem;
+  --content-width: 990px;
+  --site-bg: var(--poppy);
+  --text-color: var(--artic);
+  --font-weight: 500;
+  --speed: 300ms;
+  --transition: ease-in-out;
+}
+
+:root {
+  --white: rgb(255,255,255);
+  --white-90: rgba(255,255,255,.9);
+  --white-88: rgba(255,255,255,.88);
+  --white-80: rgba(255,255,255,.80);
+  --white-75: rgba(255,255,255,.75);
+  --white-67: rgba(255,255,255,.67);
+  --white-50: rgba(255,255,255,.50);
+  --white-40: rgba(255,255,255,.40);
+  --white-33: rgba(255,255,255,.33);
+  --white-25: rgba(255,255,255,.25);
+  --black: rgb(0,0,0);
+  --black-90: rgba(0,0,0,.90);
+  --black-88: rgba(0,0,0,.88);
+  --black-80: rgba(0,0,0,.80);
+  --black-75: rgba(0,0,0,.75);
+  --black-50: rgba(0,0,0,.50);
+  --black-25: rgba(0,0,0,.25);
+  --black-10: rgba(0,0,0,.10);
+  --red: hsl(0 77% 52%);
+  --cyan-100: hsl(171 30% 95%);
+  --cyan-150: hsl(171 30% 88%);
+  --cyan-200: hsl(183 37% 91%);
+  --cyan-300: hsl(180 35% 84%);
+  --cyan-400: hsl(180 35% 74%);
+  --sapphire-100: hsl(221 40% 60%);
+  --sapphire-300: hsl(221 40% 60%);
+  --sapphire-400: hsl(217 72% 56%);
+  --sapphire-500: hsl(222 66% 41%);
+  --sapphire-550: hsl(222 55% 35%);
+  --sapphire-600: hsl(237 95% 30%);
+  --sapphire-700: hsl(237 95% 30%);
+  --sapphire-800: hsl(240 100% 28%);
+  --sapphire-900: hsl(234 96% 19%);
+  --sapphire-905: hsla(234, 54%, 24%, 0.55);
+  --olive-100: hsl(105 17% 86%);
+  --olive-200: hsl(60 34% 85%);
+  --olive-250: rgba(179, 224, 83,.5);
+  --olive-300: rgb(179, 224, 83);
+  --olive-500: hsl(75 47% 44%);
+  --olive-600: hsl(60 100% 25%);
+  --olive-800: hsl(60 100% 15%);
+  --grass: rgb(99, 158, 67);
+  --grass-500: rgb(99, 158, 67);
+  --cb-green: rgba(179, 224, 83,.7);
+  --cb-green-dark: rgba(16, 164, 118,.66);
+  --cb-green-darker: rgba(16, 164, 118,1);
+  --cb-green-darkest: rgba(12, 144, 104,1);
+  --cb-green-light: rgba(179, 224, 83,.2);
+  --lemon: yellow;
+  --lime: rgb(189, 241, 113);
+  --olive: rgb(197, 183, 59);
+  --avocado: rgb(183, 189, 81);
+  --toxic: rgb(157, 255, 32);
+  --pea: rgb(111, 165, 61);
+  --grass: rgb(99, 146, 44);
+  --mint: rgb(171, 235, 198);
+  --seafoam: rgb(119, 233, 158);
+  --mint-ui: rgb(115, 244, 191);
+  --artic: rgb(156, 234, 250);
+  --iceberg: rgb(141, 252, 253);
+  --smurf: rgb(93, 199, 210);
+  --grape: rgb(91, 58, 236);
+  --cobalt: rgb(29, 55, 182);
+  --tomato: rgb(225, 90, 39);
+  --tomato-soup: rgb(221, 80, 65);
+  --poppy: rgb(233, 63, 54);
+  --watermelon: rgb(233, 90, 85);
+  --ruby: rgb(235, 72, 105);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html,
+body {
+  min-height: 100%;
+  min-height: 100dvh;
+}
+
+body {
+  background-color: var(--site-bg);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: var(--font-weight);
+  line-height: 1;
+  color: var(--text-color);
+}
+
+img,
+video,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  pointer-events: none;
+  vertical-align: middle;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  color: aqua;
+}
+
+a:focus,
+a:active {
+  color: inherit;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+::-moz-selection {
+  background-color: green;
+  color: white;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: green;
+  color: white;
+  text-shadow: none;
+}
+
+.container {
+  width: min(100% - var(--site-gutter) * 2, var(--content-width));
+  margin-inline: auto;
+}
+
+.center-page {
+  display: grid;
+  align-items: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.homepage-offset {
+  margin-top: 2%;
+}
+@media (min-width: 990px) {
+  .homepage-offset {
+    margin-top: 2.5%;
+  }
+}
+
+.page-title {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-size: 2.9rem;
+  line-height: 1;
+}
+@media (min-width: 990px) {
+  .page-title {
+    margin-bottom: 1rem;
+    font-size: 5rem;
+  }
+}
+
+.summary-text {
+  margin-bottom: 0.25rem;
+  text-align: center;
+  font-size: 2.65rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 0.0125em;
+}
+@media (min-width: 990px) {
+  .summary-text {
+    font-size: 4.4rem;
+    letter-spacing: 0.025em;
+  }
+}
+
+.punch-svg {
+  margin-inline: auto;
+  width: 150px;
+}
+
+.X, .x {
+  border: 1px solid red;
+}
+
+.x2 {
+  border: 3px dotted green;
+}
+
+@media (max-width: 576px) {
+  #wpadminbar {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.css.map*/

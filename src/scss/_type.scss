@@ -1,0 +1,25 @@
+.page-title {
+	margin-bottom : .5rem;
+	text-align    : center;
+	font-size     : 2.9rem;
+	line-height   : 1;
+	
+	@media (min-width: $breakpoint) {
+		margin-bottom : 1rem;
+		font-size     : 5rem;
+	}
+}
+
+.summary-text {
+	margin-bottom  : .25rem;
+	text-align     : center;
+	font-size      : 2.65rem;
+	line-height    : 1.1;
+	text-transform : uppercase;
+	letter-spacing : .0125em;
+	
+	@media (min-width: $breakpoint) {
+		font-size      : 4.4rem;
+		letter-spacing : .025em;
+	}
+}

@@ -1,0 +1,26 @@
+// SCSS BREAKPOINTS
+$under-mobile : 575.98px;
+$mobile       : 576px; //786px;
+$tablet       : 726px;
+$under-bp     : 989.98px;
+$breakpoint   : 990px;
+$bp           : 990px;
+$desktop      : 1280px;
+$huge         : 1440px;
+
+// HTML VARS
+:root {
+	--font-sans : 'Helvetica Neue', Helvetica, -apple-system, BlinkMacSystemFont, Arial,'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, sans-serif;
+	--font-mono  : ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+	--font-serif : Georgia, Times, Times New Roman, serif;
+	
+	--site-gutter   : 1rem;
+	--content-width : #{$breakpoint};
+	--site-bg       : var(--poppy);
+
+	--text-color    : var(--artic);
+	--font-weight   : 500;
+
+	--speed         : 300ms;
+	--transition    : ease-in-out;
+}

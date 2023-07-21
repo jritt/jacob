@@ -1,3 +1,32 @@
+## OS
+*~
+.DS_*
+.Spotlight-V100
+.Trashes
+.svn/
+.cvs/
+.hg/
+*.bak
+*.swp
+Thumbs.db
+
+# Node
+node_modules/
+package-lock.json
+logs
+*.logs
+.env
+.env.local
+npm-debug.log*
+
+# Composer
+vendor/
+
+# Theme
+build/index.css.map
+index.css.map
+index.asset.php
+
 # Wordpress - ignore core, configuration, examples, uploads and logs.
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 
