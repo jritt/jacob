@@ -1,5 +1,5 @@
 .page-title {
-	margin-bottom : .5rem;
+	margin-bottom : .75rem;
 	text-align    : center;
 	font-size     : 2.9rem;
 	line-height   : 1;
@@ -11,7 +11,7 @@
 }
 
 .summary-text {
-	margin-bottom  : .25rem;
+	margin-bottom  : .75rem;
 	text-align     : center;
 	font-size      : 2.65rem;
 	line-height    : 1.1;
@@ -19,6 +19,7 @@
 	letter-spacing : .0125em;
 	
 	@media (min-width: $breakpoint) {
+		margin-bottom  : .25rem;
 		font-size      : 4.4rem;
 		letter-spacing : .025em;
 	}
