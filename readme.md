@@ -1,6 +1,6 @@
 ---
 TITLE: jacob.com
-DESCRIPTION: Simple HTML/CSS-based Website for ardasha.com.
+DESCRIPTION: Simple HTML/CSS-based Website for jacob.com.
 ---
 
 # Project Setup
