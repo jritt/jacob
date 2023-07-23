@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Sample Page	</title>
-	<atom:link href="/sample-page/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="httpjritt.github.io/jacob//sample-page/feed/" rel="self" type="application/rss+xml" />
+	<link>httpjritt.github.io/jacob//</link>
 	<description></description>
 	<lastBuildDate>Sat, 22 Jul 2023 14:31:33 +0000</lastBuildDate>
 	<sy:updatePeriod>
