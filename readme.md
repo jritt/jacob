@@ -17,7 +17,8 @@ DESCRIPTION: Simple HTML/CSS-based Website for jacob.com.
 - > npm run build (Optimize css & js for production)
 
 # Add Favicons
-- 
+- Generate Favicon - https://realfavicongenerator.net
+- Add code to index.html or to header
 
 
 # For Github Hosted static sites
