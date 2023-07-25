@@ -1,8 +1,7 @@
 .page-title {
 	margin-bottom : .75rem;
 	text-align    : center;
-	font-size     : 2.9rem;
-	line-height   : 1;
+	font-size     : 2.8rem;
 	
 	@media (min-width: $breakpoint) {
 		margin-bottom : 1rem;
@@ -14,9 +13,8 @@
 	margin-bottom  : .75rem;
 	text-align     : center;
 	font-size      : 2.65rem;
-	line-height    : 1.1;
 	text-transform : uppercase;
-	letter-spacing : .0125em;
+	letter-spacing : .005em;
 	
 	@media (min-width: $breakpoint) {
 		margin-bottom  : .25rem;

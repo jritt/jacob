@@ -160,7 +160,7 @@ a:focus {
 }
 
 .container {
-  width: min(100% - var(--site-gutter) * 2, var(--content-width));
+  width: min(100% - var(--site-gutter), var(--content-width));
   margin-inline: auto;
 }
 
@@ -185,8 +185,7 @@ a:focus {
 .page-title {
   margin-bottom: 0.75rem;
   text-align: center;
-  font-size: 2.9rem;
-  line-height: 1;
+  font-size: 2.8rem;
 }
 @media (min-width: 990px) {
   .page-title {
@@ -199,9 +198,8 @@ a:focus {
   margin-bottom: 0.75rem;
   text-align: center;
   font-size: 2.65rem;
-  line-height: 1.1;
   text-transform: uppercase;
-  letter-spacing: 0.0125em;
+  letter-spacing: 0.005em;
 }
 @media (min-width: 990px) {
   .summary-text {

@@ -15,3 +15,10 @@ DESCRIPTION: Simple HTML/CSS-based Website for jacob.com.
 - Create production build: npm run build
 - > npm run start (Quick Start)
 - > npm run build (Optimize css & js for production)
+
+# Add Favicons
+- 
+
+
+# For Github Hosted static sites
+- keep file named CNAME in root folder with website as the file's conent. EX: jacob.com. Commented as "CNAME Added"
