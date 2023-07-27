@@ -22,4 +22,10 @@ DESCRIPTION: Simple HTML/CSS-based Website for jacob.com.
 
 
 # For Github Hosted static sites
-- keep file named CNAME in root folder with website as the file's conent. EX: jacob.com. Commented as "CNAME Added"
+- On GitHub create a new public repository
+- Clone the repository via Github Desktop app
+- pull the commit that added the CNAME file to your local repository.
+	RESOURCES: 
+	* [Quickstart for GitHub Pages](https://docs.github.com/en/pages/quickstart)
+	* [Using GitHub Pages with a custom domain: Namecheap Edition](https://gist.github.com/plembo/84f80c920bb5ac6f19e53fe6f8db1ff7)
+	* [Namecheap: How do I link my domain to GitHub Pages](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages/)

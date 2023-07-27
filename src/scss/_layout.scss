@@ -13,8 +13,5 @@
 }
 
 .homepage-offset {
-	margin-top : 2%;
-	@media (min-width: $breakpoint) {
-		margin-top : 2.5%;
-	}
+	padding-top : 2%;
 }
